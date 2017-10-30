@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Platinum</string>
+    <string name="number_text">Number</string>
+    <string name="date_text">Date</string>
+    <string name="category_properties_text">Category/Properties</string>
+    <string name="comment_text">Comment</string>
+    <string name="payment_text">Payment</string>
+    <string name="deposit_text">Deposit</string>
+    <string name="account_button">Account</string>
+    <string name="add">Add</string>
+    <string name="explore">Explore</string>
+    <string name="quit">Quit</string>
+    <string name="add_button">Add</string>
+    <string name="add_close_button">Add &amp; Close</string>
+    <string name="close_button">Close</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit card</string>
+    <string name="savings">Savings</string>
+    <string name="start_date">Start date</string>
+    <string name="closing_date">Closing date</string>
+    <string name="this_month">This month</string>
+    <string name="this_week">This week</string>
+    <string name="okay">Okay</string>
+    <string name="Settings_Item_inc">Income type management</string>
+    <string name="Settings_Item_exp">Expenses type management</string>
+    <string name="Settings_Item_sys">System settings</string>
+    <string name="Settings_Item_remind">Remind settings</string>
+    <string name="Settings_View_title">Settings</string>
+</resources>

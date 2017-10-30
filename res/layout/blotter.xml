@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/blotterLinearLayout"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+    	<ImageView 
+			android:id="@+id/scheduleImageView" 
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:src="@drawable/ic_schedule"
+		    android:layout_gravity="center"></ImageView>
+		<TextView
+			android:id="@+id/scheduleTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:text="06/10/2011 -- 06/17/2011" 
+			android:layout_marginLeft="5dip"
+			android:textColor="#ffaaaaaa"/>
+		<TextView
+			android:id="@+id/scheduleTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:text="Total: 2101 RMB" 
+			android:textSize="10dip" 
+			android:layout_marginLeft="15dip"
+			android:textColor="#fff45e0f"/>
+    </LinearLayout>
+    
+    <com.android.Platinum.DashedLine
+    	android:id="@+id/dashedLine"
+    	android:layout_width="wrap_content"
+    	android:layout_height="20px"
+    />
+    
+    <ListView 
+    	android:id="@+id/blotterListView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="283dip"/>
+    
+    <com.android.Platinum.DashedLine
+    	android:id="@+id/dashedLine"
+    	android:layout_width="wrap_content"
+    	android:layout_height="20px"
+    />
+    
+    <com.android.Platinum.Toolbar 
+		android:id="@+id/welcomeToolbar" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="70dip"/>
+    
+</LinearLayout>

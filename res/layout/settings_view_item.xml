@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout      
+         android:layout_width="fill_parent"      
+         xmlns:android="http://schemas.android.com/apk/res/android"      
+         android:layout_height="wrap_content"      
+         android:paddingBottom="4dip"      
+         android:paddingLeft="12dip">     
+         <ImageView      
+               android:layout_width="wrap_content"      
+               android:id="@+id/SettingsItemImage" 
+               android:layout_height="fill_parent"
+         />     
+         <TextView      
+               android:text="TextView01"      
+               android:layout_height="wrap_content"      
+               android:layout_width="fill_parent"      
+               android:id="@+id/SettingsItemTitle" 
+               android:layout_toRightOf="@+id/SettingsItemImage" 
+               android:textSize="20dip"    
+         />     
+  
+</RelativeLayout>   

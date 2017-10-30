@@ -1,0 +1,46 @@
+<merge 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:id="@+id/tab1"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Add blotter" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_add_blotter" 
+        android:gravity="center"
+        android:layout_weight="1"/>
+        
+	<TextView android:id="@+id/tab2"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Explore Blotter" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_explore_blotter" 
+        android:gravity="center" 
+        android:layout_weight="1"/>
+
+	<TextView android:id="@+id/tab3"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Quit" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_quit_app" 
+        android:gravity="center"
+        android:layout_weight="1"/>
+	                
+</merge>

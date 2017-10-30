@@ -1,0 +1,46 @@
+<merge 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView android:id="@+id/tab1"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Filter" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_filter_date" 
+        android:gravity="center"
+        android:layout_weight="1"/>
+        
+	<TextView android:id="@+id/tab2"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Refresh" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_refresh_data" 
+        android:gravity="center" 
+        android:layout_weight="1"/>
+
+	<TextView android:id="@+id/tab3"
+        android:layout_height="70dip" 
+        android:layout_width="80dip"	 
+        android:text="Back" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@drawable/text_states" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/backgound_states" 
+        android:drawableTop="@drawable/ic_back" 
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+</merge>
